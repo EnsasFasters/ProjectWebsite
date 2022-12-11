@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Main Page</title>
+</head>
+<body id="body">
+<header id="header">
+	<div id="header-logo"></div> 
+    <div style="width:85vw;float: right;">
+       <ul>
+               <li><a href="#">Login</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#">Collabs.</a></li>
+               <li><a href="#AboutUs">About Us</a></li>
+               <li><a href="#body">Home</a></li>
+         </ul>
+    </div>
+</header>
+
+<!---->
+
+<main style="position: absolute;top: 82px;">
+	<div id="main-home">
+		<br><br>
+		<p id="ourTeam">Our Team ?<br><span>Always there to help you !</span></p>
+	
+       <p id="upDownContainer"><i class="bi bi-arrow-down-circle"></i></p>
+   </div>
+ <!----->
+	<section id="AboutUs">
+		    <p style="font-size: 50px;background-color: rgba(255,255,255,.55);height: 60px;">We are Anonymous !</p>
+
+		<div class="divider">
+			<p id="servPart1"><span id="servePart1C"style="display: block;"><br><i class="bi bi-unity"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-umbrella"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-trophy-fill"></i><br><br><br><br></span></p>
+		</div>
+
+		<div class="divider" style="text-align: left;"><br><br>
+            <span style="font-size:25px;width: 30vw;display: b;">About Anonymous !</span>
+            <hr>
+			<br>
+			<p style="font-size:20px;">all we are trying to do is to help those<br> who need help</p>
+		</div>
+
+	</section>
+ <!----->
+</main>
+
+<!---->
+
+<footer></footer>
+
+</body>
+</html>
+<script type="text/javascript">
+	$("p#servPart1").hover(
+	  function(){
+          $("span#servePart1C").css('top','28vh');
+	},function(){
+          $("span#servePart1C").css('top','40vh');
+	})
+</script>
